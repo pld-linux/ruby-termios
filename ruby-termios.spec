@@ -4,17 +4,20 @@ Version:	0.9.4
 Release:	1
 License:	GPL
 Group:		Development/Languages
-Source0:	http://arika.org/archive/ruby-termios-0.9.4.tar.gz
+Source0:	http://arika.org/archive/%{name}-%{version}.tar.gz
 # Source0-md5:	41db1c72b11d1ac2a950b062922f2fde
 URL:		http://arika.org/ruby/termios
+BuildRequires:	cracklib-dicts
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
-BuildRequires:	cracklib-dicts
 %{?ruby_mod_ver_requires_eq}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-ruby-termios provides Termios module to Ruby. Termios module is a simple wrapper for termios(3). It can be included into IO-family classes and can extend IO-family objects. In addition, the methods can use as module function.
+ruby-termios provides Termios module to Ruby. Termios module is a
+simple wrapper for termios(3). It can be included into IO-family
+classes and can extend IO-family objects. In addition, the methods can
+use as module function.
 
 %prep
 %setup -q
