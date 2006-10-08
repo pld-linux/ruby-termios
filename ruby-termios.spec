@@ -1,4 +1,5 @@
 Summary:	Ruby termios library
+Summary(pl):	Biblioteka termios dla jêzyka Ruby
 Name:		ruby-termios
 Version:	0.9.4
 Release:	1
@@ -18,6 +19,12 @@ ruby-termios provides Termios module to Ruby. Termios module is a
 simple wrapper for termios(3). It can be included into IO-family
 classes and can extend IO-family objects. In addition, the methods can
 use as module function.
+
+%description -l pl
+ruby-termios udostêpnia modu³ Termios dla jêzyka Ruby. Modu³ ten to
+proste obudowanie termios(3). Mo¿e byæ do³±czony do klas z rodziny IO
+i mo¿e rozszerzaæ obiekty z rodziny IO. Ponadto za³±czone metod mo¿na
+u¿ywaæ jako funkcji modu³u.
 
 %prep
 %setup -q
