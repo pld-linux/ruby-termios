@@ -1,5 +1,5 @@
 Summary:	Ruby termios library
-Summary(pl.UTF-8):   Biblioteka termios dla języka Ruby
+Summary(pl.UTF-8):	Biblioteka termios dla języka Ruby
 Name:		ruby-termios
 Version:	0.9.4
 Release:	1
